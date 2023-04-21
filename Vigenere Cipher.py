@@ -28,4 +28,9 @@ class Vigenere:
         return ''.join(encrypted_chars)
 
 #Prompt the user to input their message and keyword
+message = input("\033[32mEnter the message:\033[0m ")
+keyword = input("\033[33mEnter your keyword:\033[0m ")
+
+#Add an instance
+
 #Print the output
