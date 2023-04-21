@@ -11,7 +11,9 @@ class Vigenere:
             return key
         #Repeat the character of keywords if length are not equal
         #Use the modulo % to ensure that the length is finally equal
-
+        else:
+            key += [key[i % len(key)] for i in range(len(self.message) - len(key))]
+        return key
 
         
 #Create another method to encrypt the message by appending the keyword characters' values
