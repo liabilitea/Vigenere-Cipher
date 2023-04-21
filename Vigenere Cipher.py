@@ -15,8 +15,12 @@ class Vigenere:
             key += [key[i % len(key)] for i in range(len(self.message) - len(key))]
         return key
 
-        
 #Create another method to encrypt the message by appending the keyword characters' values
+    def encrypt(self):
+        key = self.append_key()
+    #Encrypt each letter in the message using character from keyword
+    #Note that 65 is 'A' in ASCII
+
 
 #Prompt the user to input their message and keyword
 #Print the output
