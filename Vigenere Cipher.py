@@ -32,5 +32,7 @@ message = input("\033[32mEnter the message:\033[0m ")
 keyword = input("\033[33mEnter your keyword:\033[0m ")
 
 #Add an instance
+Vigenere1 = Vigenere(message, keyword)
+encrypted_instance = Vigenere1.encrypt()
 
 #Print the output
