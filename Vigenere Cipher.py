@@ -36,3 +36,4 @@ Vigenere1 = Vigenere(message, keyword)
 encrypted_instance = Vigenere1.encrypt()
 
 #Print the output
+print("\033[1;31;43mEncrypted message: ", encrypted_instance + "\033[0m")
