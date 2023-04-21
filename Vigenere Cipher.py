@@ -5,7 +5,15 @@ class Vigenere:
         self.keyword = keyword.upper()
 
 #Create a method that checks if the length of both the message and keyword are equal
-    
+    def append_key(self):
+        key = list(self.keyword)
+        if len(self.message) == len(key):
+            return key
+        #Repeat the character of keywords if length are not equal
+        #Use the modulo % to ensure that the length is finally equal
+
+
+        
 #Create another method to encrypt the message by appending the keyword characters' values
 
 #Prompt the user to input their message and keyword
